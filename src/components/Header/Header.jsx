@@ -9,7 +9,7 @@ const Header = () => {
           <NavLink to="/" exact >Главная</NavLink>
         </li>
         <li>
-          <NavLink to="/people/?page=1" exact >Персонажи</NavLink >
+          <NavLink to="/people/?page=1" >Персонажи</NavLink >
         </li>
         <li>
           <NavLink to="/not-found" exact >Нет страницы</NavLink >

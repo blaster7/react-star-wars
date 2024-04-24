@@ -5,8 +5,11 @@
   --color-violet: #ae72c2;
   --color-yellow: #ffff00;
   --color-dark-gray: #10100e;
+  --color-red: #f75d83;
 
   --border-radius-small: 3px;
+  --border-radius-medium: 5px;
+  --spacing-ultrasmall: 5px;
   --spacing-small: 10px;
   --spacing-medium: 20px;
   --spacing-large: 30px;
@@ -17,6 +20,7 @@
   --font-bold: 600;
 
   --width-max: 1200px;
+  --margin-list: 7px;
 
   --transition: .4s;
   --text-shadow-yellow:
