@@ -1,3 +1,4 @@
+import Favorite from '@components/Favorite';
 import styles from './Header.module.css';
 import { NavLink } from 'react-router-dom';
 
@@ -15,6 +16,7 @@ const Header = () => {
           <NavLink to="/not-found" exact >Нет страницы</NavLink >
         </li>
       </ul>
+      <Favorite />
     </div>
   )
 }
