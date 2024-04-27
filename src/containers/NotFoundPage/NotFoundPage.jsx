@@ -8,7 +8,6 @@ const NotFoundPage = () => {
 
   return (
     <>
-      NotFoundPage
       <img className={styles.img} src={img} alt='Not found' />
       <p className={styles.text}>Нет страницы для <u>{location.pathname}</u></p>
     </>

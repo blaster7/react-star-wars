@@ -2,7 +2,7 @@ import PropTypes from 'prop-types';
 import styles from './UiLoading.module.css';
 import { useEffect, useState } from 'react';
 import cn from 'classnames';
-
+import '../index.css'
 import loaderBlack from './img/loader-black.svg'
 import loaderWhite from './img/loader-white.svg'
 import loaderBlue from './img/loader-blue.svg'
