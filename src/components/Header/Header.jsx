@@ -52,6 +52,9 @@ const Header = () => {
         <li>
           <NavLink to="/not-found" exact >Нет страницы</NavLink >
         </li>
+        <li>
+          <NavLink to="/fail" exact >Ошибка</NavLink >
+        </li>
       </ul>
       <Favorite />
     </div>
